@@ -1,0 +1,73 @@
+
+# Node.js
+node_modules/
+# except package-lock.json (as suggested in the comments)
+!node_modules/.bin/
+!node_modules/your-tool/ 
+
+# npm cache
+.npm
+.npmrc
+
+# Editor preferences
+.editorconfig
+.prettierrc.js
+.eslintrc.js
+
+# IDE Generated files
+.vscode/
+.idea/
+
+# Testing
+/coverage/
+
+# Temporary files
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.local
+.env.*
+
+# Docker
+Dockerfile*
+docker-compose.*
+.dockerignore
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+
+# Binary files
+*.zip
+*.rar
+*.gz
+*.tar
+*.7z
+*.dmg
+*.iso
+*.exe
+*.dll
+*.so
+*.dylib
+*.msi
+*.vsix
+
+# Compiled output
+build/
+dist/
+lib/
+public/
+
+# TypeScript
+*.tsbuildinfo
+
+# Add these for Express.js specific files
+sessions/ 
+uploads/ 
