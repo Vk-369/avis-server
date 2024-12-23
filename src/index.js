@@ -6,6 +6,9 @@ const port = 3000; // You can choose any available port
 app.get('/health/check', (req, res) => {
   res.status(201).json({ message: 'Yeah,bro iam fine ' });
 });
+app.get('/', (req, res) => {
+  res.status(201).json({ message: 'Hello vinay ' });
+});
       
 // Start the server
 app.listen(port, () => {
